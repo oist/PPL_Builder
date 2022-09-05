@@ -1,0 +1,4 @@
+*.aliases
+*.lvlps
+__pycache__
+.sconsign.dblite

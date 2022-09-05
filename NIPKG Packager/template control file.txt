@@ -1,0 +1,17 @@
+Package: %%PACKAGE%%
+Version: %%VERSION%%
+Section: %%SECTION%%
+Architecture: %%ARCH%%
+Depends: %%DEPS%%
+Provides: %%PROVIDES%%
+Installed-Size: %%SIZE_KB%%
+Maintainer: %%MAINT%%
+Description: %%DESC_HEADER%%
+%%DESC_MULTILINE_BODY%%
+XB-Plugin: file
+XB-ReleaseNotes:
+%%RELNOTES_MULTILINE_BODY%%
+XB-UserVisible: yes
+XB-VisibleForRuntimeDeployment: no
+XB-DisplayName: %%DISPLAY_NAME%%
+XB-DisplayVersion: %%DISPLAY_VERSION%%
