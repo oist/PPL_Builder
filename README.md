@@ -1,4 +1,4 @@
-# Chakraborty_PPL-Builder
+# PPL-Builder
 Tool for building LabVIEW Packed Project Library files on Windows and cRIO-9045.
 
 This tool can be used with [G-CLI](https://github.com/JamesMc86/G-CLI) and expects the following arguments:
