@@ -26,6 +26,7 @@
 				<Item Name="Info Outputs" Type="Folder">
 					<Item Name="Create CLI Input Summary String.vi" Type="VI" URL="../Create CLI Input Summary String.vi"/>
 					<Item Name="Form Initial Report String.vi" Type="VI" URL="../Form Initial Report String.vi"/>
+					<Item Name="Output Build Result.vi" Type="VI" URL="../Output Build Result.vi"/>
 				</Item>
 				<Item Name="Typedefs and Paths" Type="Folder">
 					<Item Name="CLI-Inputs.ctl" Type="VI" URL="../CLI-Inputs.ctl"/>
