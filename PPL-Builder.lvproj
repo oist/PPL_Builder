@@ -43,6 +43,7 @@
 					<Item Name="Get-Version-Template.vi" Type="VI" URL="../Get-Version-Template.vi"/>
 					<Item Name="Script Version VI.vi" Type="VI" URL="../Script Version VI.vi"/>
 				</Item>
+				<Item Name="Get Environment Variable.vi" Type="VI" URL="../Get Environment Variable.vi"/>
 				<Item Name="Parse CLI Inputs GoCD.vi" Type="VI" URL="../Parse CLI Inputs GoCD.vi"/>
 			</Item>
 			<Item Name="Builder-ext.vi" Type="VI" URL="../Builder-ext.vi"/>
