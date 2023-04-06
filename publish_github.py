@@ -167,10 +167,10 @@ if __name__ == "__main__":
 	print(targetDirs)
 	
 	# The artifacts are fetched into 'artifacts/{target}/{GO_PIPELINE_NAME}/...'
-	pipelineName = os.environ['GO_PIPELINE_NAME']
+	artifactPathName = os.environ['PPL_Name']
 	fileDict = {}
 	for d in targetDirs:
-		fileDict[d] = os.listdir(os.path.join(d, pipelineName))
+		fileDict[d] = os.listdir(os.path.join(d, artifactPathName))
 	# {'artifacts/Windows_32_Debug': [
 	#   'oist-name_windows32_debug_1.2.3.4_windows_all.nipkg',
 	#   'oist-name_windows32_debug_1.2.3.4_windows_all.nipkg.sig',
