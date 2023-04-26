@@ -123,7 +123,7 @@ def push_tag(relRepoUrl, tag_name, sha, description):
 		r.raise_for_status()
 	except requests.exceptions.HTTPError as err:
 		print(f"git tag {tag_name} already exists. updating the reference")
-		patch_payload = { 'sha': tag_sha, 'force': false }
+		patch_payload = { 'sha': tag_sha, 'force': False }
 		r = requests.patch(
 			ref_url + f"/tags/{tag_name}",
 			headers = user_header,
